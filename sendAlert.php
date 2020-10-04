@@ -19,7 +19,7 @@
     
     use Twilio\Rest\Client;
     require 'Twilio_PHP_SDK/vendor/autoload.php';
-    require 'convert-pm25-aqi.php';
+    require 'convertPM25ToAQI.php';
 
     function getPurpleAirQualityDataFromSensor($sensorId) {
         global $config;
