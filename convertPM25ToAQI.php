@@ -35,7 +35,7 @@
         } else if ($PM > 35.5) {
             return calcAQI($PM, 150, 101, 55.4, 35.5);
         } else if ($PM > 12.1) {
-            return calcAQI(pm, 100, 51, 35.4, 12.1);
+            return calcAQI($PM, 100, 51, 35.4, 12.1);
         } else if ($PM >= 0) {
             return calcAQI($PM, 50, 0, 12, 0);
         } else {
